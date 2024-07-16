@@ -17,4 +17,4 @@
 Currently only /32 and /64 bitmasks supported for IPV6 networks<br><br>
 
 <h3>Download</h3>
-<a href = https://github.com/teffeh/CIDR-Converter/releases/latest/download/CIDR_converter.zip>Click Here</a>
+<a href = https://github.com/teffeh/CIDR-Converter/releases/latest/download/CIDR.converter.zip>Click Here</a>
