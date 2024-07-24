@@ -1,4 +1,4 @@
-# CIDR-Converter
+# CIDR, IP range and IP address batch converter
 
 <h3>Prerequisities: Python 3.12.4</h3>
 
