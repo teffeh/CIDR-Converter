@@ -4,9 +4,7 @@ import os.path
 
 
 ## Define lists
-addresses = []
 addresses_converted = []
-batches = []
 
 ## Get filename
 print("Please provide full path to file to convert, e.g. \"C:/Users/<me>/Documents/myfile.csv\"\n\nIn Windows 11, right click on your target file, select Copy As Path OR left click the target file and press Ctrl+Shift+C:\n")
