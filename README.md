@@ -1,20 +1,19 @@
 # CIDR-Converter
 
-<h3>How to use - If you can install software</h3>
-0: Download and unzip to a folder on your PC <br><br>
-1: Copy your CIDR data into "data_input_<IP TYPE>.csv" with no additional characters, one entry per row, e.g. : <b>192.168.0.1/24</b> <br><br>
-2: Run CIDR_converter.exe <br><br>
-3: Open "data_output_<IP TYPE>.csv" to get converted ranges on each line <br><br>
+<h3>Prerequisities: Python 3.12.4</h3>
 
-<h3>How to use if you can install python, but not run unsigned .exe files</h3>
-0: Download and unzip to a folder on your PC <br><br>
-1: Download and install python
-2: Copy your CIDR data into "data_input_<IP TYPE>.csv" with no additional characters, one entry per row, e.g. : <b>192.168.0.1/24</b> <br><br>
-3: Run CIDR_converter.py <br><br>
-4: Open "data_output_<IP TYPE>.csv" to get converted ranges on each line <br><br>
+1.  Generate CSV file of values with one network address per row e.g.
+<table>
+<tr><td>192.168.0.1/24</td></tr>
+<tr><td>2400:7aa0::/32</td></tr>
+<tr><td>192.168.0.1</td></tr>
+<tr><td>192.168.1.68-192.168.1.69</td></tr>
+</table>
+2. Run IP_Batch_Converter.py with Python (Right click > Open with > Python)
+3. Follow instructions in window to copy the path of the CSV file. Paste or type full path and press Enter.
+4. In the folder the script is stored in, observe at least one txt file of maximum 50 IP address ranges is generated. This amount of files will scale up to infinity depending on number of input network addresses.
+5. Delete/move/archive generated txt files to prevent confusion for next usage 
 
-<h2>Note:</h2>
-Currently only /32 and /64 bitmasks supported for IPV6 networks<br><br>
 
 <h3>Download</h3>
-<a href = https://github.com/teffeh/CIDR-Converter/releases/latest/download/CIDR.converter.zip>Click Here</a>
+<a href = https://github.com/teffeh/CIDR-Converter/releases/latest/download/IP_Batch_Converter.py>Click Here</a>
