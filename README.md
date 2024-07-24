@@ -11,8 +11,7 @@
 </table>
 2. Run IP_Batch_Converter.py with Python (Right click > Open with > Python)<br>
 3. Follow instructions in window to copy the path of the CSV file. Paste or type full path and press Enter.<br>
-4. In the folder the script is stored in, observe at least one txt file of maximum 50 IP address ranges is generated. This amount of files will scale up to infinity depending on number of input network addresses.<br>
-5. Delete/move/archive generated txt files to prevent confusion for next usage <br>
+4. In the folder the data file is stored in, observe at least one txt file of maximum 50 IP address ranges is generated. This amount of files will scale up to infinity depending on number of input network addresses.<br>
 
 
 <h3>Download</h3>
